@@ -1,0 +1,31 @@
+* {
+    font-family: Verdana, Lucida Sans, Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px auto;
+    background-color:#222;
+}
+
+.chart {
+	height: 300px;
+	width:360px;
+	position:relative;
+}
+
+.contents {
+	display: flex;
+	display: -webkit-flex;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	height:320px;
+	position:relative;
+	top:20px;
+}
+
+
+.content_text {
+	font-weight:bold;
+	font-size:2em;
+	color:#fff;
+}
