@@ -62,6 +62,7 @@ window.onload = function () {
 
 	document.addEventListener('tizenhwkey', function(e) {
         if(e.keyName == "back")
+            window.webapis.motion.stop("HRM");
             tizen.application.getCurrentApplication().exit();
     });
 
